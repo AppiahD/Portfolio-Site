@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Eric Appiah Danso | Portfolio</title>
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #eef4fb;
+    color: #222;
+  }
+  header {
+    background: #005f99;
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  header p {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+  }
+  nav {
+    margin-top: 1rem;
+  }
+  nav a {
+    color: #fff;
+    margin: 0 0.5rem;
+    text-decoration: none;
+  }
+  section {
+    padding: 2rem 1rem;
+    max-width: 900px;
+    margin: auto;
+  }
+  h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #005f99;
+  }
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  .card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  .card h3 {
+    margin-top: 0;
+  }
+  .card a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #005f99;
+    text-decoration: none;
+  }
+  /* About Me Section */
+  #about img {
+    width: 250px;
+    border-radius: 0;
+    display: block;
+    margin: 0 auto 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+  .about-text {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+  }
+  /* Skills Section */
+  #skills ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+  }
+  #skills li {
+    margin-bottom: 0.5rem;
+  }
+  #skills strong {
+    color: #005f99;
+  }
+  /* Experience Section */
+  #experience p {
+    white-space: pre-line; /* ensures each bullet appears on new line */
+  }
+#contact-icons {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#contact-icons a {
+  margin: 0 20px;
+  font-size: 2rem;
+  text-decoration: none;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+/* Official brand colors */
+#contact-icons a[href^="mailto"] i {
+  color: #D44638; /* Gmail red */
+}
+
+#contact-icons a[href*="linkedin.com"] i {
+  color: #0077B5; /* LinkedIn blue */
+}
+
+#contact-icons a[href*="github.com"] i {
+  color: #000000; /* GitHub black */
+}
+
+/* Simple hover animation */
+#contact-icons a:hover i {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #005f99;
+    color: #fff;
+    margin-top: 2rem;
+  }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Eric Appiah Danso</h1>
+    <p>Data Analyst | Accountant | Content Writer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <img src="Regular.png" alt="Eric Appiah Danso">
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>
+        I am a detail-oriented Data Analyst with expertise in Python, SQL, and Power BI, and a strong foundation in accounting. I focus on automating manual processes, building visual reports, and translating data into simple insights that help improve performance and growth. My experience includes keeping financial records accurate and using data-driven strategies to guide decision-making. I am skilled at analyzing complex information, explaining it clearly, and working with teams to deliver reliable and innovative solutions that support data integrity and business goals.
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Data Analysis & Visualization:</strong> Power BI, Tableau, Advanced MS Excel</li>
+      <li><strong>Programming Languages:</strong> Python, SQL</li>
+      <li><strong>Libraries:</strong> NumPy, pandas</li>
+      <li><strong>Soft Skills:</strong> Presentation & Facilitation, Business Communication, Teamwork and Interpersonal Skills</li>
+      <li><strong>Financial Reporting and Analysis:</strong> Accuracy, forecasting, budgeting</li>
+    </ul>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+  <h2>Experience</h2>
+  <div style="max-width:700px; margin:auto;">
+    
+    <h3>Data Analyst – Generation Ghana</h3>
+    <p><em>August 2025 – November 2025</em></p>
+    <ul>
+      <li>Cleaned and prepared raw data, finding key trends to support business decisions.</li>
+      <li>Built interactive Power BI dashboards to track KPIs and share insights easily.</li>
+      <li>Automated data collection and reporting with Python and SQL, saving time and allowing deeper analysis.</li>
+      <li>Worked with different teams to give data-driven recommendations that improved projects and efficiency.</li>
+    </ul>
+
+    <h3>Billing Officer – Ga West Municipal Hospital</h3>
+    <p><em>September 2021 – July 2022</em></p>
+    <ul>
+      <li>Improved invoicing process with structured workflows and checks, ensuring accuracy, compliance, and faster invoice delivery.</li>
+      <li>Kept accurate financial records in line with regulations, supporting smooth audits with no discrepancies.</li>
+      <li>Reviewed accounts receivable reports to target collections, leading to faster revenue recovery and better cash flow.</li>
+    </ul>
+
+  </div>
+</section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Sales Dashboard</h3>
+        <p>Built an interactive sales dashboard using Power BI and SQL to track KPIs.</p>
+        <a href="#">View Project</a>
+      </div>
+      <div class="card">
+        <h3>Web Scraper</h3>
+        <p>Developed a Python-based scraper to collect e-commerce pricing data for analysis.</p>
+        <a href="#">View Project</a>
+      </div>
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>This portfolio itself, coded with HTML, CSS, and hosted on GitHub Pages.</p>
+        <a href="#">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <div id="contact-icons">
+      <a href="mailto:ericappiah94.ea@email.com" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/ericappiahdanso" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/AppiahD" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Eric Appiah Danso. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
